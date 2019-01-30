@@ -2,7 +2,7 @@ import path from 'path'
 
 import express from 'express'
 
-import { MongoClient } from 'mongodb'
+//import { MongoClient } from 'mongodb'
 
 import template from './../template'
 
@@ -50,16 +50,5 @@ app.listen(port, function onStart(err) {
 
 
 
-// Database Connection URL
 
-const url = process.env.MONGODB_URI || 'mongodb://localhost:27017/mernSimpleSetup'
 
-// Use connect method to connect to the server
-
-MongoClient.connect(url, (err, db)=>{
-
-  console.log("Connected successfully to mongodb server")
-
-  
-
-})
