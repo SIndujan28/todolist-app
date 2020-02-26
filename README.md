@@ -7,14 +7,11 @@ A simple react+node app which lets users to maintain a Todolist.
 3. react
 4. styled-components
 
-## Prerequisites
-
-
 ## Getting started
 
  ### Prerequisites
-1.Install Nodejs using this (guide)[https://nodejs.org/en/download/].
-2.Install (npm)[https://www.npmjs.com/get-npm] or (yarn)[https://classic.yarnpkg.com/en/docs/install/#debian-stable]
+1.Install Nodejs using this [guide](https://nodejs.org/en/download/).
+2.Install [npm](https://www.npmjs.com/get-npm) or [yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable)
 
  ### Steps to reproduce locally
   1. Clone this repository
